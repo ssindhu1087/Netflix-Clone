@@ -1,0 +1,467 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#mainTag{
+    /* border: solid red; */
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: fr 2fr 2fr 2fr 2fr 4fr 1fr ;
+    row-gap: 0px;
+    
+}
+div{
+    /* border: solid blue; */
+    height: 600px;
+    
+}
+#mainTag>div{
+
+    border-top: 10px solid #232323;
+    
+}
+#mainTag #firstPageTop{
+    /* border: solid black; */
+    grid-column: 1/3;
+    grid-row: 1;
+    background-image: url(./images/background-image.jpeg);
+    background-size: cover;
+}
+#mainTag #firstPage{
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.475) 50%, rgba(0, 0, 0, 0.8) 100%);
+ 
+}
+#mainTag #firstPage #nabBar{
+    height: 90px; 
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+
+}
+#mainTag #firstPage #nabBar img{
+    height: 70px;
+    width: 160px;
+    padding-top: 20px;
+
+}
+#mainTag #firstPage #nabBar #space{
+    height: fit-content;
+    width: 200px;
+}
+#mainTag #firstPage #nabBar #rightSide{
+    border: none;
+    display: flex;
+    margin-top: 30px;
+}
+#mainTag #firstPage #nabBar #rightSide #lang{
+    border: 0.1px solid rgb(127, 121, 121);
+    height: 35px;
+    margin-right: 25px;
+    border-radius: 5px;
+
+
+}
+#mainTag #firstPage #nabBar #rightSide #lang select{
+    width: 90px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#mainTag #firstPage #nabBar #rightSide #lang select option{
+    color: black;
+   
+}
+#mainTag #firstPage #nabBar #rightSide #lang i{
+    font-size: large;
+    color: white;
+    padding: 5px;
+
+
+}
+#mainTag #firstPage #nabBar #rightSide #signIn{
+    /* border: solid rgb(255, 0, 0); */
+    height: 30px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#mainTag #firstPage #firstPageDown #getInput{
+    text-align: center;
+    padding-top: 200px;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+#mainTag #firstPage #firstPageDown #getInput #firstPagePAragraph1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+#mainTag #firstPage #firstPageDown #getInput #firstPagePAragraph2{
+    font-size: x-large;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+
+}
+#mainTag #firstPage #firstPageDown #getInput #firstPagePAragraph3{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+
+}
+#mainTag #firstPage #firstPageDown #getInput input{
+    border: 1.5px solid rgb(194, 192, 192);
+    background-color: #29374262;
+    margin-top: 15px;
+    height: 55px;
+    width: 350px;
+    border-radius: 5px;
+    
+    
+}
+#mainTag #firstPage #firstPageDown #getInput .getStarted{
+    
+    margin-top: 15px;
+    margin-left: 5px;
+    padding-left: 20px;
+    line-height: 55px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+#mainTag #firstPage #firstPageDown #getInput .getStarted i{
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+#mainTag .textPartRight{
+    /* border: solid; */
+    color: white;
+    padding-left: 30%;
+    padding-top: 30%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-stretch:condensed;
+    
+  
+    
+
+}
+#mainTag .textPartRight h1{
+    color: white;
+    text-align: justify;
+    font-size: 48px;
+    font-weight: 1000;
+
+    
+
+}
+#mainTag .textPartRight p{
+    color: white;
+    text-align:left;
+    font-size: 24px;
+    padding-top: 10px;
+}
+#mainTag .textPartLeft{
+    /* border: solid; */
+    color: white;
+    padding-top: 20%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+    
+}
+#mainTag .textPartLeft h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    
+    
+
+}
+#mainTag .textPartLeft p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#mainTag .animationPart1{
+    position: relative;
+
+}
+#mainTag .animationPart1 #secondDiv {
+    position: absolute;
+    z-index: 2;
+}
+#mainTag .animationPart1 #secondDiv img{
+    height: 400px;
+    margin-top: 60px;
+}
+#mainTag .animationPart1 .imgone video{
+    
+    margin-top: 70px;
+    margin-left: 40px;
+    height: 250px;
+    
+
+}
+#mainTag .animationPart2{
+    /* border: solid green; */
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    
+    
+}
+#mainTag .animationPart2 #secondDiv2{
+    position: absolute;
+    border: none;
+    z-index: 1;
+
+   
+}
+#mainTag .animationPart2 #secondDiv2 img{
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 50px;
+    
+    
+   
+}
+#mainTag .animationPart2 .imgone2 {
+    border: 1px solid rgba(205, 200, 200, 0.778);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 100px;
+    width: 290px;
+    color: rgb(255, 255, 255);
+    z-index: 15;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: larger;
+    margin: 330px 0px 0px 280px;
+    position: absolute;
+    
+}
+#mainTag .animationPart2 .imgone2 #stranger{
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: large;
+    z-index: 5;
+    
+}
+#mainTag .animationPart2 .imgone2 #download{
+    color: rgb(16, 126, 244);
+    margin: 30px 30px 0px -60px;
+    font-size: smaller;
+    z-index: 8;
+   
+    
+}
+#mainTag .animationPart2 .imgone2 #img1{
+   height: 80px;
+   z-index: 8;
+}
+#mainTag .animationPart2 .imgone2 #img2{
+   height: 50px;
+   
+   z-index: 8;
+}
+
+#mainTag .animationPart1 .imgone3 video{
+    
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 250px;
+    width: 330px;
+    
+}
+#mainTag .kids{
+    background-color: rgb(0, 0, 0)
+    
+    
+}
+#mainTag .kids img{
+    height: 450px;
+    /* width: fit-content; */
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+#mainTag #faq{
+    grid-column: 1/3;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height:fit-content; 
+    margin-left: -70px;
+
+    
+    
+}
+#mainTag #faq h1{
+    color: white;
+    font-size: 50px;
+    padding: 50px 0px 20px 450px;
+    
+}
+#mainTag #faq .questions {
+    color: white;
+    /* border: solid brown; */
+    width: 900px;
+    position: relative;
+    margin: 10px 0px 20px 200px;;
+    
+}
+#mainTag #faq .questions input{
+    color: white;
+    height: 80px;
+    width: 1100px;
+    background-color: #2d2d2d;
+    position: absolute;
+    opacity: 10%;
+
+    
+}
+#mainTag #faq .questions .queryFaq{
+    color: white;
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 1100px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#mainTag #faq .questions .queryFaq i{
+    font-size: xx-large;
+    font-weight: 200;
+}
+#mainTag #faq .questions input:focus+.queryFaq>i{
+    transform: rotate(45deg);
+}
+#mainTag #faq .questions .hiddendata{
+    /* border: solid red; */
+    border-top: 2px solid black;
+    color: white;
+    height: fit-content;
+    width: 1100px;
+    background-color: #2d2d2d;
+    padding: 15px 10px 10px 15px;
+    font-size: x-large;
+    
+}
+#mainTag #faq .questions .hiddendata{
+    
+    display: none;
+}
+#mainTag #faq .questions input:focus+.queryFaq+.hiddendata{
+    
+    display: block;
+}
+#mainTag #faq .readyLine{
+    
+    color: aliceblue;
+    font-size: x-large;
+    padding: 100px 0px 10px 370px;
+}
+#mainTag #faq #input2{
+    border: 0.5px solid rgba(128, 128, 128, 0.853);
+    font-size: medium;
+    margin: 0px 0px 90px 420px;
+    height: 55px;
+    width: 450px;
+    border-radius: 5px;
+    background-color:#0f0f0f;
+    /* color: #959089; */
+}
+#mainTag #faq #getStarted2{
+    
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 20px;
+    line-height: 55px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    background-color: #e50913;
+    border-radius: 5px;
+    border: none;
+}
+
+
+#mainTag #contacts{
+    grid-column: 1/3;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+#mainTag #contacts #contactsDetails{
+    color: e0d7d6;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainTag #contacts #contactsDetails div {
+    color: #e0d7d6;
+    font-size: large;
+    height: 230px;
+    width: 150px;
+    padding: 20px
+    
+
+
+    
+}
+#mainTag #contacts #quesone{
+    /* border: solid green; */
+    height: 100px;
+    color: #e0d7d6;
+    padding-top: 70px;
+    padding-left: 165px;
+    
+    
+}
+
+#mainTag #contacts #lang{
+    border: 0.1px solid rgb(127, 121, 121);
+    height: 35px;
+    width: 150px;
+    margin-left: 160px;
+    border-radius: 5px;
+}
+#mainTag #contacts #lang select{
+    width: 90px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#mainTag #contacts #lang select option{
+    color: black;
+   
+}
+#mainTag #contacts #lang i{
+    font-size: large;
+    color: white;
+    padding: 5px;
+
+}
+
+#mainTag #contacts #last{
+    color: white;
+    padding-left: 160px;
+    padding-bottom: 200px;
+}
