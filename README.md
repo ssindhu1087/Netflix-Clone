@@ -10,9 +10,9 @@ A responsive Netflix clone built with HTML, CSS, and JavaScript to mimic the lay
 - **Grid Layout**: Display of movies or TV shows in a grid format, similar to the Netflix homepage.
 
 ## Technologies Used
--**HTML**: For the basic structure of the website.
--**CSS**: For styling and layout design.
--**JavaScript**: For adding interactive features like the carousel, but without full functionality in this version.
+- **HTML**: For the basic structure of the website.
+- **CSS**: For styling and layout design.
+- **JavaScript**: For adding interactive features like the carousel, but without full functionality in this version.
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/49206532-f528-44bf-bf9d-21092aec1b54)
